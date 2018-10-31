@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"lib","l":"checkStr"},{"p":"com.company","l":"Main"}]

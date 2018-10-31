@@ -1,0 +1,1 @@
+java -classpath C:\Users\yurez\IdeaProjects\lab1j\out\production\untitled104 com.company.Main
