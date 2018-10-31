@@ -82,15 +82,9 @@ public class checkStr
             int n = str.length();
             int m = sub.length();
             if (m == 0)
-<<<<<<< Updated upstream
-                return true;
-            if (n == 0)
-                return false;
-=======
                 return Boolean.TRUE;
             if (n == 0)
                 return Boolean.FALSE;
->>>>>>> Stashed changes
             int i;
             for (i = 0; (i < m) && (str.charAt(i + n - m) == sub.charAt(i)); ++i) ;
             return i == m;
