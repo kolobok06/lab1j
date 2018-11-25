@@ -121,11 +121,11 @@ public class GUI extends JFrame
                 } else
                 {
                     if (subChk)
-                        res.append("Substring: ").append(checkStr.isSubstring(s1, s2).toString()).append(System.lineSeparator());
+                        res.append("Substring: ").append(checkStr.is_Substring(s1, s2).toString()).append(System.lineSeparator());
                     if (prefChk)
-                        res.append("Prefix: ").append(checkStr.isPrefix(s1, s2).toString()).append(System.lineSeparator());
+                        res.append("Prefix: ").append(checkStr.is_Prefix(s1, s2).toString()).append(System.lineSeparator());
                     if (sufChk)
-                        res.append("Suffix: ").append(checkStr.isSuffix(s1, s2).toString()).append(System.lineSeparator());
+                        res.append("Suffix: ").append(checkStr.is_Suffix(s1, s2).toString()).append(System.lineSeparator());
                 }
                 JOptionPane.showMessageDialog(null, res);
             }
