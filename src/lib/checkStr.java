@@ -60,16 +60,7 @@ public class checkStr
          */
         public static Boolean isPrefix (String str, String sub)
         {
-
-            int n = str.length();
-            int m = sub.length();
-            if (m == 0)
-                return true;
-            if (n == 0)
-                return false;
-            int i;
-            for (i = 0; (i < m) && (str.charAt(i) == sub.charAt(i)); ++i) ;
-            return i == m;
+           return str.startsWith(sub);
         }
 
         /**
