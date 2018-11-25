@@ -10,7 +10,7 @@ public class checkStr
      * @param sub assumed substring
      * @return true, if sub is a substring of str, else - false
      */
-    public static Boolean isSubstring(String str, String sub)
+    public static Boolean is_Substring(String str, String sub)
     {
         int i = 0;
         int j = 0;
@@ -58,7 +58,7 @@ public class checkStr
          * @param sub assuming prefix
          * @return true, if sub is a prefix of str, else - false
          */
-        public static Boolean isPrefix (String str, String sub)
+        public static Boolean is_Prefix (String str, String sub)
         {
 
             int n = str.length();
@@ -77,7 +77,7 @@ public class checkStr
          * @param sub assuming suffix
          * @return true, if sub is a suffix of str, else - false
          */
-        public static Boolean isSuffix (String str, String sub)
+        public static Boolean is_Suffix (String str, String sub)
         {
             int n = str.length();
             int m = sub.length();
